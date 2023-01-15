@@ -1,10 +1,10 @@
 from Tur import *
 
-colors = ["red", "purple", "yellow", "blue", "green", "orange"]
+colors = ["red", "purple", "blue", "green", "orange"]
+turtles = []
 
 
 def generate_turtles():
-    turtles = []
     position_index = 1
 
     for color in colors:
